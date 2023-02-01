@@ -54,7 +54,7 @@ namespace ESAPX_StarterUI.ViewModels
                 new PlanConstraint(ConstraintBuilder.Build("Rectum", "V75Gy[%] <= 15")), //Can use this as a template to hardcode constraints for local clinical use.
                 new PlanConstraint(ConstraintBuilder.Build("Rectum", "V65Gy[%] <= 35")),
                 new PlanConstraint(ConstraintBuilder.Build("Bladder", "V80Gy[%] <= 15")),
-                //new PlanConstraint(new CTDateConstraint())
+                new PlanConstraint(new CTDateConstraint()) //This is the CT-Date_Constraint feature trying to branch
             });
         }
 
