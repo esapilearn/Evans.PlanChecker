@@ -19,7 +19,7 @@
                     Command="{Binding EvaluateCommand}"/>
             <!-- EvaluateCommand is the action of the script-->
             
-            <!-- Binding the text to be displayed to the context and output of the plan checks-->
+            <!-- Binding the text to be displayed to the context and output of the plan checks in the 3 columns-->
             <DataGrid DockPanel.Dock="Top" ItemsSource="{Binding Constraints}" 
                       AutoGenerateColumns="False">
                 <DataGrid.CellStyle>
