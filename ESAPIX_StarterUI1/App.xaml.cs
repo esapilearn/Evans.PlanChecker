@@ -23,7 +23,7 @@ namespace ESAPX_StarterUI
         private IESAPIService _esapiServ;
 
         //Disable if you don't want patient selection
-        public bool IsPatientSelectionEnabled { get; } = true;
+        public bool IsPatientSelectionEnabled { get; } = false; //changed true to false to disable the patient selection
 
         private string[] _args;
 
